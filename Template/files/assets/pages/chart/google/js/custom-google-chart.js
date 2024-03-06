@@ -53,7 +53,7 @@ $(document).ready(function() {
 
     function drawStacked() {
         // Faça uma solicitação para o arquivo PHP que retorna os dados
-        fetch('http://localhost/Admindek/Template/default/get_data.php')
+        fetch('http://localhost/lirasat_project/Template/default/get_data.php')
             .then(response => response.json())
             .then(data => {
                 // Use os dados retornados para desenhar o gráfico
